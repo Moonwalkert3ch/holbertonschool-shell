@@ -1,2 +1,2 @@
 #!/bin/bash
-mv ls grep -v [A-Z] /tmp/u
+find . -name '[A-Z]*' -exec mv -t ~/tmp/u {} +
