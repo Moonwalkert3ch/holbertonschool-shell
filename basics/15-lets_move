@@ -1,0 +1,2 @@
+#!/bin/bash
+mv ls grep -v [A-Z] /tmp/u
