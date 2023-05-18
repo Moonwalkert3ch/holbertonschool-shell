@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-for i in head do echo "Best School" done
+# for i in head do echo "Best School" done
