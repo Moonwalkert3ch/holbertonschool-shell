@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Writing best school 10 time in until loop
+i=0
+condition=10
+until $condition
+do echo "Best School"
+((i++))
+done
