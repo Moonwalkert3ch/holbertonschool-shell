@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 # this script is displaying while using if and then
 i=0
-while [ $i -lt 10 ];
+while [ $i -lt 10 ]
 do
-echo "Best School"
-((i++))
-if [ $i = 9 ];
-then echo "Hi"
-if echo $i
+	((i++))
+	if [ $i == 9 ]
+	then
+		echo "Hi"
+		break
+	fi
+	echo "Best School"
 done
