@@ -21,7 +21,7 @@ case "$argv1" in
 	start) start
 		;;
 
-	stop) stop|
+	stop) stop
 		;;
 
 restart) restart
